@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 90%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .navRightSection {
+    width: 20px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .navRightSection a {
+    margin-right: 12px;
+    color: #3c4043;
+}
+
+nav .navRightSection .menuIcon {
+    background-image: url("https://cdn-icons-png.flaticon.com/128/17/17704.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin: 0 12px;
+}
+
+nav .navRightSection img {
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+nav .navRightSection a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .mainLogo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .mainLogo img {
+    width: 272px;
+    height: 92px;
+    cursor: pointer;
+}
+
+main .mainInput {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+
+main .mainInputContainer {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .mainInput input {
+    width: 450px;
+    height: 42px;
+    outline: none;
+    border: none;
+}
+
+main .mainInputContainer:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .mainInput .searchIcon {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+main .mainInput .microIcon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    padding-right: 28px;
+}
+
+main .mainButtons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .mainButtons div {
+    display: inline-block;
+}
+
+main .mainButtons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+main .mainButtons button:hover {
+    box-shadow: 0 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footerLeft {
+    justify-self: end;
+}
+
+footer .footerRight {
+    justify-self: start;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #70757a;
+}
